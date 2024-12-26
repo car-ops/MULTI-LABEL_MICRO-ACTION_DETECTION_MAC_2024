@@ -44,10 +44,6 @@ python preprocess/generate_json.py
 python data/predict_video.py
 ```
 
-The bounding box are visualized as follows:
-
-![Bounding box visualization](figs/bbox.png)
-
 ## 2. Training
 
 - Before training your model following our tutorial, please make sure that **the path of instance** is right in line 1~4 of *OpenTAD-main/configs/_base_/datasets/multithumos/e2e_train_trunc_test_sw_256x224x224.py*.
