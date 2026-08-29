@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+env/
+.env
+*.local
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Experiment outputs
+runs/
+outputs/
+work_dirs/
+logs/
+wandb/
+tensorboard/
+
+# Model weights and intermediate artifacts
+weights/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+*.pickle
+
+# Local datasets and generated predictions
+data/train/
+data/val/
+data/test/
+result_detection.json
+prediction.csv
+submission.zip
